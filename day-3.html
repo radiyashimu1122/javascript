@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <script>
+  //   Javascript function
+  function addSevenNum() {
+        var flower =150 ;
+        var cambrige =480 ;
+        var  makkar =100 ;
+        var notebook =130;
+        var pencil=30;
+        var eraser=10;
+        var pen=60;
+      var TotalPrice=flower+ cambrige+makkar+notebook+pencil+eraser+pen;
+        document.write(TotalPrice + "<br/>");
+      }
+      addSevenNum();
+     //   Function Parameter
+     function addSevenNum(Mobilecover,Headphone,Flower,Book,Flowertop,Scale,Pencil) {
+        var Total =Mobilecover+ Headphone+Flower+Book+Flowertop+Scale+Pencil;
+        document.write(Total + "<br/>");
+      }
+      addSevenNum(120,800,150,1350,360,20,20 );
+      addSevenNum(220,900,350,150,1350,360,20, );
+
+ //   Function Return
+ function fullName() {
+        return "computer";
+       
+      }
+      var computerName = fullName();
+    document.write(computerName);
+
+   // JavaScript Array
+   var ieltsfriend = ["Sabrina Akther Riya", "Najmin Nahar Rajina", 
+   "syeda Anny","Washima Akhi","Selina Akther Akhi","Farzana Rahman Tahrin","Shirin Akther","Ruli Brgum","Shamima Akther","Mili Begun",
+   "Juli Akther","Ripa AKther","Riya Banik"];
+   
+  
+   document.write(ieltsfriend[0]);
+      // //   For Loop Over Array
+      var ieltsfriend = ["Sabrina Akther Riya", "Najmin Nahar Rajina", 
+   "syeda Anny","Washima Akhi","Selina Akther Akhi","Farzana Rahman Tahrin","Shirin Akther","Ruli Brgum","Shamima Akther","Mili Begun",
+   "Juli Akther","Ripa AKther","Riya Banik"
+       ];
+      for (i = 0; i < ieltsfriend .length; i++) {
+        document.write(ieltsfriend [i] + "<br/>");
+      }
+      </script>
+</body>
+</html>
