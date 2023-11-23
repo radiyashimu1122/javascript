@@ -1,8 +1,14 @@
 button{
- background-color: orange;
+ background-color: #f85606;
  color: white;
  border: none;
 }
 .buynow{
  background-color: #2abbe8;
+}
+.cencel{
+ background-color: palevioletred;
+}
+.paynow{
+ background-color: #f85606;
 }
