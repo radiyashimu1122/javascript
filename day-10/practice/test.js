@@ -4,7 +4,7 @@ function addToCart() {
  function newPage() {
   open("price=1500tk");
  }
- function cencel() {
+ function confirmYourOrder() {
   confirm("cencel Your Order");
  }
  function payment() {
