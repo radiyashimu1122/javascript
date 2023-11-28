@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <script>
+     // For In Loop Over Array
+     var friendsName = ["Sabrina", "Tahrin", "Shammi"];
+      for (var friendship in friendsName) {
+         // document.write(friendsName[friendship ]);
+      }
+
+      var friendsName =["s","p","f"];
+      for(var friends in friendsName){
+        // document.write(friendsName [friends]+"<br>");
+      }
+      //   For In Loop Over Object
+      var person = {
+        name: "Messi",
+        age: 40,
+        height: "5.6 Feet",
+      };
+      for (var personInfo in person) {
+      document.write(person[personInfo] + "<br>");
+      }
+
+var person ={
+ Name:"Shimu",
+ Age:19,
+ Height:"5 feet",
+ Natinality:"Bangladeshi",
+}
+for(var personinfo in person ){
+ // document.write(person[personinfo]+"<br>");
+}
+//   Array Concat And Array Form
+var shimuFriends = ["Sabrina", "Nishat", "Shammi"];
+      var lubaFriends = ["Sanjida", "Sadiya", "Radiya"];
+      var friendship = shimuFriends.concat(lubaFriends);
+      // document.write(friendship);
+var sFriends =["Shammi","Tahrin","Sabrina"];
+var pFriends=["Akhi","Nusrat","Mitu","Shima"];
+var frndship = sFriends.concat(pFriends);
+// document.write(frndship +"<br/>");
+var dateUpdate = new Date ();
+// document.write(dateUpdate.getMonth ())
+// javascript date object
+var dateobject = new date ();
+document.write(dateobject.getMonth())
+ </script>
+</body>
+</html>
